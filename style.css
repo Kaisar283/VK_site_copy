@@ -84,5 +84,36 @@ body{
     width: 30px;
     border-radius: 50%;
 }
+.sitebar_section{
+    margin-top: 15px;
 
+}
+.sitebar_section div{
+    font-size: 14px;
+    height: 30px;
+    width: 163px;
+    padding: 1px 0;
+}
 
+.sitebar_section i{
+    color: #5181B8;
+    margin-right: 6px;
+    font-size: 15px;
+}
+.sitebar_additional_block {
+    padding-top: 15px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+}
+.sitebar_additional_block div{
+    font-size: 14px;
+    height: 30px;
+    width: 163px;
+    padding: 1px 0;
+}
+
+.sitebar_additional_block i{
+    color: #5181B8;
+    margin-right: 6px;
+    font-size: 15px;
+}
