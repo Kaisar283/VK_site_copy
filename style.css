@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 
 body{
     background-color: #EDEEF0;
@@ -84,6 +86,10 @@ body{
     width: 30px;
     border-radius: 50%;
 }
+
+.body_content{
+    display: flex;
+}
 .sitebar_section{
     margin-top: 15px;
 
@@ -116,4 +122,245 @@ body{
     color: #5181B8;
     margin-right: 6px;
     font-size: 15px;
+}
+
+.body_second_section{
+    width: 230px;
+}
+
+.profile_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+
+}
+
+.profile_actio{
+    background-color: #fff;
+    margin:15px 15px 15px 0;
+    padding: 15px 15px 6px 15px;
+    border-radius: 5px;
+    height: 355px;
+    width: 200px;
+}
+
+.flat_Button{
+    background-color: #E5EBF1;
+    height: 30px;
+    width: 200px;
+    margin-top: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.flat_Button_in{
+    font-size: 13px;
+    font-family: inherit;
+    color: #55677D;
+    margin-left: 50px;
+
+}
+
+.Page_action_cell{
+    font-size: 16px;
+    color: #A5ADB6;
+    padding: 8px 0;
+}
+
+.Page_action_cell span{
+    color: #626D7A;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.Translet{
+    padding: 10px 0;
+}
+
+.profile_warning{
+    display: flex;
+    margin: 13px 0 0 0;
+    background-color: #fff;
+    height: 41px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.profile_warning_icon{
+    color: #648FC9;
+    margin: 10px;
+}
+
+.profile_warning_text{
+    color: black;
+    font-size: 14px;
+}
+
+.profile_warning_cancel{
+    margin-left: 10px;
+    color: #A8B3BE;
+}
+
+.friends_block{
+    background-color: #fff;
+    margin: 13px 0 0 0;
+    font-size: 13px;
+    padding: 10px;
+    height: 180px;
+    border-radius: 5px;
+}
+.friends_block a{
+    color: #818C99;
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+.count{
+    color: #55677D;
+    margin-left: 7px;
+}
+
+.friends_block_body{
+    color: #2A5885;
+    margin-top: 5px;
+
+}
+
+.friends_block_body div{
+    text-align: center;
+} 
+
+.each_friend{
+    margin: 5px 10px;
+
+}
+.each_friend img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Friends_online{
+    background-color: #fff;
+    margin: 13px 0 0 0;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 90px;
+}
+
+.profile_info{
+}
+.Profile_Top_Block{
+    background-color: #fff;
+    margin: 15px 0 15px 15px;
+    border-radius: 5px;
+    width: 560px;
+    height: 350px;
+}
+.name_profile_info{
+    font-size: 20px;
+
+}
+
+.profile_info_Top{
+    padding: 15px;
+    border-bottom:1px solid #DCE1E6;
+    height: 57px;
+
+}
+
+.profile_status{
+    color: #818C99;
+    margin-left: 330px;
+    font-size: 13px;
+}
+
+.profile_about_me{
+    font-size: 14px;
+}
+
+.profile_info_short{
+    font-size: 14px;
+    margin: 10px;
+}
+
+table td:first-child{
+    color: #818C99;
+    width: 170px;
+    padding: 4px;
+}
+
+table td:nth-child(2){
+    color: #2A5885;
+}
+.More_Info a{
+    color: #2A5885;
+}
+
+.More_Info{
+    align-items: center;
+    /* background-color: #838996; */
+    text-align: center;
+    margin: 15px 0 0 53px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.Counts_Moduls{
+    display: inline-flex;
+    border-top: 1px solid #DCE1E6;
+}
+
+.count_modul{
+    padding: 15px;
+    text-align: center;
+}
+
+.conut{
+    font-size: 20px;
+    color: #2A5885;
+}
+
+.lable{
+    color: #626D7A;
+}
+.photo_section{
+    background-color: #fff;
+    margin: 15px 0 0 15px;
+    border-radius: 5px;
+}
+.photo_section_header{
+    display: flex;
+    font-size: 13px;
+    padding: 15px;
+}
+.photo_lable{
+    margin-right: 8px;
+}
+.photo_count{
+    color: #626D7A;
+}
+.link_into_map{
+    margin-left: 270px;
+    color: #818C99;
+}
+
+.photo_body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    padding-bottom: 15px;
+}
+.each_photo{
+    width: 123px;
+    height: 123px;
+}
+
+.each_photo img{
+    width: 123px;
+    height: 123px;
 }
